@@ -1,0 +1,1426 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 2, 2023 02:19:51 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@AllScenarios</a><a class="dropdown-item" href="#">@VisitayCertificacionesExpedicionSinModificacionTodos</a><a class="dropdown-item" href="#">@VisitasyCertificacionesAmpliacion</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Visitas de Certificacion de condiciones sanitarias</p>
+            <p class="text-sm">
+              <span>2:19:56 PM</span> / <span>00:12:49:380</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Visitas de Certificacion de condiciones sanitarias</h5>
+<span class='badge badge-success'>02.02.2023 2:19:56 PM</span>
+<span class='badge badge-danger'>02.02.2023 2:32:46 PM</span>
+<span class='badge badge-default'>00:12:49:380</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> Automatizacion para validar el correcto funcionamento del tramite.</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Visita y Certificacion Ampliaciones <Tramite></div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Visita y Certificacion Ampliaciones Expedición del Certificado de Buenas Prácticas</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Dados los datos del ambiente y usuarios del sistema</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Inicio sesion en "NPTUrl" como "GestorTramites"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-20-09
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded1.png' src="./embedded1.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-20-15
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded2.png' src="./embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Y Tengo la variable "Expediente" con el valor "C000000380"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Y Necesito registrar un tramite asociado a un expediente</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-20-27
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded3.png' src="./embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Y Selecciono el tipo de tramite "Expedición del Certificado de Buenas Prácticas"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Y Selecciono el subtipo de tramite "Sin Modificación"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces Se muestra la pantalla para asociar una empresa al tramite</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-20-33
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded4.png' src="./embedded4.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-20-32
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded5.png' src="./embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Y Se muestran las tarifas correspondientes al tramite</span>
+      <div><table class='markup-table table '><tr><td>4008</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-20-38
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded6.png' src="./embedded6.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces Puedo continuar a la pantalla tecnica</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-20-39
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded7.png' src="./embedded7.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-20-43
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded8.png' src="./embedded8.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-20-40
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded9.png' src="./embedded9.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Necesito registrar la informacion general del producto</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Ingreso toda la informacion de la pantalla tecnica de Expedicion sin modificacion certificado visitas y certificaciones</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-20-45
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded10.png' src="./embedded10.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-20-56
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded11.png' src="./embedded11.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces Puedo ingresar la documentacion requerida</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-20-59
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded12.png' src="./embedded12.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-20-58
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded13.png' src="./embedded13.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-20-57
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded14.png' src="./embedded14.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Necesito ingresar toda la documentacion requerida</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Valido que se muestren los documentos obligatorios y los agrego</span>
+      <div><table class='markup-table table '><tr><td>Camara y comercio</td></tr><tr><td>Contrato de sesión</td></tr><tr><td>Contrato de compra y venta</td></tr><tr><td>Documento soporte por la entidad competente</td></tr><tr><td>Copia de la Tarjeta profesional del director técnico</td></tr><tr><td>Copia del diploma del director técnico</td></tr><tr><td>Copia del contrato del director técnico</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces Puedo visualizar la informacion general de la tarifa</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-21-19
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded15.png' src="./embedded15.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-21-20
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded16.png' src="./embedded16.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-21-41
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded17.png' src="./embedded17.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Necesito visualizar la informacion del tramite</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Guardo la informacion</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-21-44
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded18.png' src="./embedded18.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces Puedo ver la informacion del tramite en un PopUp</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-21-58
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded19.png' src="./embedded19.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Inicio sesion en "NPTUrl" como "Representante"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-22-14
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded20.png' src="./embedded20.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-22-19
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded21.png' src="./embedded21.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Tengo la solicitud asignada con estado "Pendiente de firma"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-22-22
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded22.png' src="./embedded22.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces Puedo ver la informacion del tramite en un PopUp</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-22-38
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded23.png' src="./embedded23.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Solicito firmar el documento</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-22-53
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded24.png' src="./embedded24.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces El funcionario recibe al correo electronico un codigo de confirmacion</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Tengo un codigo de confirmacion para firmar el documento</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Ingreso el codigo de confirmacion y firmo el documento</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-22-55
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded25.png' src="./embedded25.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-22-59
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded26.png' src="./embedded26.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Inicio sesion en "NPTUrl" como "DirectorTecnico"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-23-10
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded27.png' src="./embedded27.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-23-14
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded28.png' src="./embedded28.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Tengo la solicitud asignada con estado "Pendiente de firma"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-23-18
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded29.png' src="./embedded29.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces Puedo ver la informacion del tramite en un PopUp</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-23-32
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded30.png' src="./embedded30.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Solicito firmar el documento</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-23-47
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded31.png' src="./embedded31.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces El funcionario recibe al correo electronico un codigo de confirmacion</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Tengo un codigo de confirmacion para firmar el documento</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Ingreso el codigo de confirmacion y firmo el documento</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-23-48
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded32.png' src="./embedded32.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-23-51
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded33.png' src="./embedded33.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Y cierro el visor</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces El sistema me permite radicar la solicitud y me genera un numero de tramite.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-24-01
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded34.png' src="./embedded34.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-23-59
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded35.png' src="./embedded35.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Necesito aprobar la radicacion de un tramite como funcionario tecnico</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Inicio sesion en "NPTUrl" como "RevisorTecnico"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-24-05
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded36.png' src="./embedded36.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-24-09
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded37.png' src="./embedded37.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces Puedo aprobar la solicitud</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-24-23
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded38.png' src="./embedded38.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-24-18
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded39.png' src="./embedded39.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Inicio sesion en "NPTUrl" como "Representante"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-24-32
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded40.png' src="./embedded40.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-24-28
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded41.png' src="./embedded41.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Tengo la solicitud asignada con estado "Pendiente de pago"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-24-35
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded42.png' src="./embedded42.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Y realizo el pago del tramite y radico el tramite</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-24-36
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded43.png' src="./embedded43.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-26-18
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded44.png' src="./embedded44.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-26-21
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded45.png' src="./embedded45.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-25-31
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded46.png' src="./embedded46.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces El sistema genera el numero de radicado y numero de expediente</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-26-30
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded47.png' src="./embedded47.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Tengo el tramite pendiente de asignar</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Inicio sesion en "NPTUrl" como "Coordinador"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-26-38
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded48.png' src="./embedded48.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-26-43
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded49.png' src="./embedded49.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces Puedo asignar el tramite a un funcionario tecnico y tecnico revisor</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-27-03
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded50.png' src="./embedded50.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-27-04
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded51.png' src="./embedded51.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-26-55
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded52.png' src="./embedded52.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Inicio sesion en "NPTUrl" como "ProfesionalTecnico"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-27-13
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded53.png' src="./embedded53.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-27-17
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded54.png' src="./embedded54.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Tengo el tramite asignado con estado "Pendiente de gesti"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-27-33
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded55.png' src="./embedded55.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces Puedo dar concepto "Aprobar" al tramite</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-27-46
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded56.png' src="./embedded56.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-27-49
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded57.png' src="./embedded57.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-27-51
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded58.png' src="./embedded58.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Inicio sesion en "NPTUrl" como "ProfesionalTecnicoRevisor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-28-08
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded59.png' src="./embedded59.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-28-12
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded60.png' src="./embedded60.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Tengo el tramite asignado con estado "gesti"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-30-06
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded61.png' src="./embedded61.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-29-14
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded62.png' src="./embedded62.png">
+    
+    </div></div>
+</div>
+      <div>02-Feb-2023-14-30-59
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded63.png' src="./embedded63.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Entonces Puedo dar concepto "Aprobar" al tramite</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-SKH1K62', ip: '10.212.134.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c9c17ce3db5fe3aae6f533aad0bb6ba, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Kubit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52244}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52244/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c9c17ce3db5fe3aae6f533aad0bb6ba
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at Functions.SeleniumFunctions.attachScreenShot(SeleniumFunctions.java:237)
+	at StepDefinitions.MyStepdefsControlPosterior.puedoAprobarElTramite(MyStepdefsControlPosterior.java:238)
+	at ?.Puedo dar concepto "Aprobar" al tramite(classpath:Features/Tramites/Cosmeticos/Visitas%20y%20Certificaciones/TodosExpedicionSinModificacion.feature:88)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefinitions.Hooks.addScreenShot(io.cucumber.java.Scenario)</span>
+      <div>02-Feb-2023-14-32-00
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded64.png' src="./embedded64.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Y Finalizo la gestion</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Dado Inicio sesion en "NPTUrl" como "ProfesionalTecnico"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Cuando Tengo el tramite asignado con estado "documental"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Y Puedo ver el concepto de la visita "Mantiene y cumple"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Y Puedo generar el documento del tramite tipo "Certificado de Buenas Prácticas de Manufactura"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Dado Inicio sesion en "NPTUrl" como "ProfesionalTecnicoRevisor"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Cuando Tengo el tramite asignado con estado "Pendiente de complementaci"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Entonces Puedo complementar el documento del tramite</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Dado Inicio sesion en "NPTUrl" como "Notificador"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Cuando Tengo el tramite en notificacion "Pendiente de firma"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Entonces Puedo firmar el documento para la notificacion</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchWindowException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchWindowException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:31:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='103'>Entonces Puedo dar concepto "Aprobar" al tramite</a>
+<div class="">
+<span class="badge badge-default">Visitas de Certificacion de condiciones sanitarias.Visita y Certificacion Ampliaciones Expedición del Certificado de Buenas Prácticas.Entonces Puedo dar concepto "Aprobar" al tramite</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@AllScenarios</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@AllScenarios</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:19:56 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Visita y Certificacion Ampliaciones <Tramite></a>
+<div class="">
+<span class="badge badge-default">Visitas de Certificacion de condiciones sanitarias.Visita y Certificacion Ampliaciones <Tramite></span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:19:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Visita y Certificacion Ampliaciones Expedición del Certificado de Buenas Prácticas</a>
+<div class="">
+<span class="badge badge-default">Visitas de Certificacion de condiciones sanitarias.Visita y Certificacion Ampliaciones Expedición del Certificado de Buenas Prácticas</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@VisitayCertificacionesExpedicionSinModificacionTodos</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VisitayCertificacionesExpedicionSinModificacionTodos</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:19:56 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Visita y Certificacion Ampliaciones <Tramite></a>
+<div class="">
+<span class="badge badge-default">Visitas de Certificacion de condiciones sanitarias.Visita y Certificacion Ampliaciones <Tramite></span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:19:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Visita y Certificacion Ampliaciones Expedición del Certificado de Buenas Prácticas</a>
+<div class="">
+<span class="badge badge-default">Visitas de Certificacion de condiciones sanitarias.Visita y Certificacion Ampliaciones Expedición del Certificado de Buenas Prácticas</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@VisitasyCertificacionesAmpliacion</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VisitasyCertificacionesAmpliacion</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:19:56 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Visita y Certificacion Ampliaciones <Tramite></a>
+<div class="">
+<span class="badge badge-default">Visitas de Certificacion de condiciones sanitarias.Visita y Certificacion Ampliaciones <Tramite></span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:19:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Visita y Certificacion Ampliaciones Expedición del Certificado de Buenas Prácticas</a>
+<div class="">
+<span class="badge badge-default">Visitas de Certificacion de condiciones sanitarias.Visita y Certificacion Ampliaciones Expedición del Certificado de Buenas Prácticas</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 2, 2023 02:19:51 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 2, 2023 02:32:46 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='100%'><b>1</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='87%'><b>84</b> steps passed</small></div>
+<div>
+<small data-tooltip='1%'><b>1</b> steps failed,
+<b>11</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Visitas de Certificacion de condiciones sanitarias":769.38
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@AllScenarios</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@VisitayCertificacionesExpedicionSinModificacionTodos</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@VisitasyCertificacionesAmpliacion</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 84,
+failGrandChild: 1,
+warningGrandChild: 0,
+skipGrandChild: 11,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
